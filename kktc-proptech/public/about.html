@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hakkımızda & Sistem Mimarisi | IslandProp</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 flex flex-col min-h-screen">
+
+  <!-- NAVBAR -->
+  <header class="bg-white border-b border-slate-200/80 px-6 py-3.5 flex items-center justify-between sticky top-0 z-40 shadow-xs">
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center text-white font-extrabold text-lg shadow-md hover:bg-blue-700 transition">
+        IP
+      </a>
+      <div>
+        <a href="index.html" class="text-sm font-black tracking-tight text-slate-900 flex items-center gap-1.5 hover:text-blue-600 transition">
+          IslandProp
+          <span class="text-[10px] font-bold px-1.5 py-0.5 rounded-md bg-blue-50 text-blue-700 border border-blue-200/60 uppercase">DAÜ Spatial</span>
+        </a>
+        <p class="text-[11px] text-slate-500 font-medium">Doğu Akdeniz Üniversitesi Çevresi Akıllı Gayrimenkul Platformu</p>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-3">
+      <a href="index.html" class="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition flex items-center gap-1.5">
+        <i data-lucide="arrow-left" class="w-3.5 h-3.5"></i>
+        <span>Haritaya Dön</span>
+      </a>
+      <a href="#contact" class="px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition flex items-center gap-1.5 shadow-sm">
+        <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+        <span>İletişime Geç</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="bg-gradient-to-b from-blue-900 via-slate-900 to-slate-950 text-white py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center space-y-4">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-400/30 text-blue-300 text-xs font-bold">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+        <span>Akıllı Yaşam & Mekânsal Zekâ</span>
+      </div>
+      <h1 class="text-3xl md:text-5xl font-black tracking-tight leading-tight">
+        Öğrenciler ve Ev Sahipleri İçin <br class="hidden sm:inline">Şeffaf, Veriye Dayalı Konut Deneyimi
+      </h1>
+      <p class="text-sm md:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
+        IslandProp; Kuzey Kıbrıs Türk Cumhuriyeti ve özellikle Gazimağusa DAÜ çevresinde konut kiralama sürecini sıradan bir ilan panosundan çıkarıp çok boyutlu analitik platforma dönüştürür.
+      </p>
+    </div>
+  </section>
+
+  <!-- ANA İÇERİK KAPSAYICISI -->
+  <main class="flex-1 max-w-4xl mx-auto px-6 py-12 space-y-12">
+
+    <!-- 1. NE İŞE YARAR? -->
+    <section class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold">
+          <i data-lucide="target" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-lg font-black text-slate-900">IslandProp Ne İşe Yarar?</h2>
+          <p class="text-xs text-slate-500">Klasik emlak sitelerinin ötesinde, öğrenci odaklı karar alma mekanizması</p>
+        </div>
+      </div>
+      <p class="text-xs md:text-sm text-slate-600 leading-relaxed">
+        Kıbrıs'ta ev kiralarken sadece aylık kira bedeline bakmak yanıltıcı olabilir. <strong>Elektrik faturaları, su kesintileri, ulaşım maliyeti ve depozito şartları</strong> bütçeyi doğrudan etkiler. IslandProp, bir dairenin sadece fotoğraflarını değil; üniversiteye olan gerçek yürüyüş süresini, klima türünün faturaya etkisini ve toplam aylık yaşam masrafını hesaplar.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+        <div class="p-3.5 bg-slate-50 rounded-2xl border border-slate-100">
+          <strong class="text-xs font-bold text-slate-800 block mb-1">📍 Tam Konum Doğruluğu</strong>
+          <p class="text-[11px] text-slate-500">Temsili değil, harita üzerinde işaretlenmiş gerçek koordinatlarla konum doğrulaması.</p>
+        </div>
+        <div class="p-3.5 bg-slate-50 rounded-2xl border border-slate-100">
+          <strong class="text-xs font-bold text-slate-800 block mb-1">⚡ TrueCost™ Maliyet</strong>
+          <p class="text-[11px] text-slate-500">Kira + Aidat + KIB-TEK (İnverter Klima Durumu) + Su giderlerinin net toplamı.</p>
+        </div>
+        <div class="p-3.5 bg-slate-50 rounded-2xl border border-slate-100">
+          <strong class="text-xs font-bold text-slate-800 block mb-1">🤖 Canlı Yapay Zekâ</strong>
+          <p class="text-[11px] text-slate-500">Çevre emsalleriyle kıyaslayan, net ve hap özetler üreten Gemini motoru.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SİSTEM NASIL ÇALIŞIR? -->
+    <section class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold">
+          <i data-lucide="cpu" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-lg font-black text-slate-900">Sistem Nasıl Çalışır?</h2>
+          <p class="text-xs text-slate-500">Mekânsal mesafe hesapları ve yapay zekâ entegrasyonu</p>
+        </div>
+      </div>
+      <div class="space-y-3 text-xs md:text-sm text-slate-600 leading-relaxed">
+        <div class="flex items-start gap-3 p-3 bg-slate-50 rounded-2xl">
+          <span class="w-6 h-6 rounded-xl bg-blue-600 text-white text-[11px] font-black flex items-center justify-center shrink-0 mt-0.5">1</span>
+          <div>
+            <strong class="text-slate-800 block mb-0.5">Mekânsal (Spatial) Geometri Hesabı:</strong>
+            DAÜ Kampüs Kapısı referans noktası alınarak Haversine ve gerçek yol ağı algoritmalarıyla kapıdan kapıya yürüme ve araç sürüş dakikası anlık hesaplanır.
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-slate-50 rounded-2xl">
+          <span class="w-6 h-6 rounded-xl bg-blue-600 text-white text-[11px] font-black flex items-center justify-center shrink-0 mt-0.5">2</span>
+          <div>
+            <strong class="text-slate-800 block mb-0.5">Doğal Dil Arama Motoru (NLP):</strong>
+            "Karakol'da 400 sterline 2+1 yürüyerek gidilen daire" yazdığınızda sistem cümlenizi ayrıştırıp semt, bütçe, oda ve yürüme filtresini haritaya otomatik işler.
+          </div>
+        </div>
+        <div class="flex items-start gap-3 p-3 bg-slate-50 rounded-2xl">
+          <span class="w-6 h-6 rounded-xl bg-blue-600 text-white text-[11px] font-black flex items-center justify-center shrink-0 mt-0.5">3</span>
+          <div>
+            <strong class="text-slate-800 block mb-0.5">Google Gemini Live Intelligence:</strong>
+            Seçilen ilanı çevresindeki benzer fiyatlı evlerle karşılaştırır. Lafı uzatmadan konum avantajını, KKTC enerji durumunu ve net kiralama tavsiyesini 3 maddede özetler.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. GÜVENLİK ÖNLEMLERİ VE AUDIT SİSTEMİ -->
+    <section class="bg-white rounded-3xl p-8 border border-slate-200/80 shadow-sm space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold">
+          <i data-lucide="shield-check" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-lg font-black text-slate-900">Güvenlik Önlemleri & Denetim Protokolü</h2>
+          <p class="text-xs text-slate-500">Değiştirilemez log mimarisi ve yetki hiyerarşisi</p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 text-xs text-slate-600">
+        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 space-y-1.5">
+          <div class="flex items-center gap-2 text-slate-800 font-bold">
+            <i data-lucide="lock" class="w-4 h-4 text-emerald-600"></i>
+            <span>Şifre Güvenliği & BCRYPT</span>
+          </div>
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            Kullanıcı şifreleri veritabanında asla düz metin olarak saklanmaz. Güçlü tek yönlü tuzlanmış BCRYPT algoritmasıyla korunur.
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 space-y-1.5">
+          <div class="flex items-center gap-2 text-slate-800 font-bold">
+            <i data-lucide="phone" class="w-4 h-4 text-emerald-600"></i>
+            <span>WhatsApp OTP Doğrulaması</span>
+          </div>
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            Sahte hesapları engellemek amacıyla yeni kayıtlar 6 haneli güvenli WhatsApp onay koduyla doğrulanarak aktif edilir.
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 space-y-1.5">
+          <div class="flex items-center gap-2 text-slate-800 font-bold">
+            <i data-lucide="user-check" class="w-4 h-4 text-purple-600"></i>
+            <span>Katı Rol Hiyerarşisi</span>
+          </div>
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            Yöneticiler ilanları ve kullanıcıları denetler. Sistem Yöneticisi (<span class="font-bold text-slate-800">Hüseyin Hilmi Savran</span>) dışında kimse admin atayamaz, yetki kısıtlayamaz veya logları silemez.
+          </p>
+        </div>
+        <div class="p-4 bg-slate-50 rounded-2xl border border-slate-100 space-y-1.5">
+          <div class="flex items-center gap-2 text-slate-800 font-bold">
+            <i data-lucide="history" class="w-4 h-4 text-blue-600"></i>
+            <span>Değiştirilemez Audit Logs</span>
+          </div>
+          <p class="text-[11px] text-slate-500 leading-relaxed">
+            Profil güncelleme, ilan durumu değiştirme ve yetki operasyonları IP ve kullanıcı bazında kalıcı denetim günlüğüne saniye saniye işlenir.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. İLETİŞİM ALANI -->
+    <section id="contact" class="bg-gradient-to-br from-slate-900 to-blue-950 rounded-3xl p-8 text-white space-y-6 shadow-xl">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-2xl bg-blue-600 text-white flex items-center justify-center font-bold">
+          <i data-lucide="message-circle" class="w-5 h-5"></i>
+        </div>
+        <div>
+          <h2 class="text-lg font-black text-white">İletişim & Destek</h2>
+          <p class="text-xs text-slate-400">Geri bildirim, teknik destek ve emlak ofisi iş birlikleri</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3.5 text-xs">
+        <div class="p-4 bg-white/5 border border-white/10 rounded-2xl space-y-1">
+          <span class="text-[10px] uppercase font-bold text-slate-400 block">E-Posta</span>
+          <strong class="text-white text-xs block truncate">destek@islandprop.com</strong>
+          <span class="text-[10px] text-slate-400 block">24 saat içinde yanıtlanır</span>
+        </div>
+        <div class="p-4 bg-white/5 border border-white/10 rounded-2xl space-y-1">
+          <span class="text-[10px] uppercase font-bold text-slate-400 block">WhatsApp Destek</span>
+          <strong class="text-white text-xs block">+90 533 888 00 01</strong>
+          <span class="text-[10px] text-emerald-400 block">Canlı Destek Hattı</span>
+        </div>
+        <div class="p-4 bg-white/5 border border-white/10 rounded-2xl space-y-1">
+          <span class="text-[10px] uppercase font-bold text-slate-400 block">Lokasyon</span>
+          <strong class="text-white text-xs block">Gazimağusa / KKTC</strong>
+          <span class="text-[10px] text-slate-400 block">Doğu Akdeniz Üniversitesi Bölgesi</span>
+        </div>
+      </div>
+
+      <div class="pt-2 text-center">
+        <a href="index.html" class="inline-flex items-center gap-2 px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold transition shadow-lg">
+          <i data-lucide="map-pin" class="w-4 h-4"></i>
+          <span>Haritada Konut Aramaya Başla</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-white border-t border-slate-200/80 py-6 px-6 text-center text-xs text-slate-500">
+    <div class="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      <div class="flex items-center gap-2 font-bold text-slate-700">
+        <span class="w-6 h-6 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs">IP</span>
+        <span>IslandProp © 2026</span>
+      </div>
+      <div class="flex items-center gap-4 text-[11px] font-semibold text-slate-500">
+        <a href="index.html" class="hover:text-blue-600 transition">Ana Sayfa</a>
+        <a href="about.html" class="text-blue-600 font-bold">Hakkımızda</a>
+        <a href="#contact" class="hover:text-blue-600 transition">İletişim</a>
+      </div>
+      <span class="text-[11px] text-slate-400">Sistem Yöneticisi: Hüseyin Hilmi Savran</span>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
